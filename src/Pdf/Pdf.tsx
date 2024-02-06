@@ -89,14 +89,12 @@ const Pdf = () => (
 
       <View style={styles.contactSection}>
         <View>
-          <Text style={styles.subtitle}>mail: arickho@gmail.com</Text>
-          <Text style={styles.subtitle}>phone: +1 (929) 272 2291</Text>
-          <Text style={styles.subtitle}>location: miami, florida</Text>
+          <Text style={styles.subtitle}><Link src="mailto:arickho@gmail.com">arickho@gmail.com</Link> · +1 (929) 272 2291 · <Link src="https://github.com/whoisjordangarcia">github.com/whoisjordangarcia</Link> · <Text style={styles.subtitle}>linkedin: <Link src="https://www.linkedin.com/in/arickhogarcia/">linkedin.com/in/arickhogarcia/</Link></Text> · <Link src="https://jordangarcia.me/">jordangarcia.me</Link>
+          </Text>
+
         </View>
         <View>
-          <Text style={styles.subtitle}>linkedin: <Link src="https://www.linkedin.com/in/arickhogarcia/">https://www.linkedin.com/in/arickhogarcia/</Link></Text>
-          <Text style={styles.subtitle}>personal: <Link src="https://jordangarcia.me/">https://jordangarcia.me/</Link></Text>
-          <Text style={styles.subtitle}>github: <Link src="https://github.com/whoisjordangarcia">https://github.com/whoisjordangarcia</Link></Text>
+          <Text style={styles.subtitle}>location: miami, florida</Text>
         </View>
       </View>
 
