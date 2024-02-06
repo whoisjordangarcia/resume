@@ -1,6 +1,6 @@
 # Jordan Garcia's Resume
 
-Utilizes  [react-pdf](https://react-pdf.org/) to generate my personal resume.
+Utilizes  [react-pdf](https://react-pdf.org/) to generate my personal resume. See generated output in /resume.pdf
 
 ## Installation
 1. `nvm use`
