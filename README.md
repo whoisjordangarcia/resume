@@ -1,6 +1,6 @@
 # Jordan Garcia's Resume
 
-A single-page, one-column resume that utilizes react-pdf](https://react-pdf.org/) to help generate my resume.
+A single-page, one-column resume that utilizes [react-pdf](https://react-pdf.org/) to help generate my resume.
 
 ## Motivation
 
