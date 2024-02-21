@@ -6,13 +6,13 @@ import {
   Link,
   Page,
   StyleSheet,
-  Line,
-  Svg,
   View,
 } from "@react-pdf/renderer";
 import Job from "../components/Job/Job";
 
-import { resumeContent as resume } from "../data/resumeContent"
+import { resumeContent } from "../data/resumeContent"
+import { individualContributor } from "../data/individualContributor"
+
 import HorizontalLine from "../components/HorizontalLine/HorizontalLine";
 
 Font.register({
@@ -148,6 +148,8 @@ const styles = StyleSheet.create({
     paddingBottom: 2,
   },
 });
+
+const resume = { ...resumeContent, ...individualContributor }
 
 const Pdf = () => (
   <Document
