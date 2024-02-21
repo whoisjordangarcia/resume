@@ -1,6 +1,6 @@
 const individualContributor = {
     jobTitle: 'Senior Software Engineer',
-    profileContent: "A seasoned Software Engineer with 15+ years in architecting, developing, and optimizing web applications and backend services. Offers a strong technical foundation combined with siginifiant leadership experience, managing teams and spearheading complex projects. Excels in technical problem solving, coding, and systrem design, with a keen interest in returning to a hands-on technical role to directly impact product development and innovation.",
+    profileContent: "A seasoned Software Engineer with 15+ years in architecting, developing, and optimizing web applications and backend services. Offers a strong technical foundation combined with significant leadership experience, managing teams and spearheading complex projects. Excels in technical problem solving, coding, and system design, with a keen interest in returning to a hands-on technical role to directly impact product development and innovation.",
     jobs: [
         {
             position: "Engineering Manager / Senior Software Engineer",
@@ -22,7 +22,7 @@ const individualContributor = {
             hightlights: [
                 "Developed a tool to assist teams with CI/CD pipelines in testing web features pre-merge, enabling stakeholders to evaluate new UI features. Adopted across the engineering org.",
                 "Migrated invitae.com website from legacy django cms to contentful building a re-useable CMS UI library. Allowing marketing to deploy new pages on demand vs weekly / monthly releases.",
-                "Led the decentralization of the largest monolithic application into microservices, elevating system reliability, maintainability, and resilience."
+                "De-coupled a large monolithic application into micoservices/micro-frontends, improve overall system reliability, maintainability, and resilience to company re-orgs."
             ]
         },
         {
