@@ -21,7 +21,7 @@ const resumeContent = {
             type: "Github"
         }
     ],
-    profileContent: "A passionate Engineering Manager with 10+ years of experience in developing robust web applications and backend services. Demonstrates strong leadership in managing small to medium teams, delivering project milestones, and developing strategic roadmaps. Adept in fostering team growth, encouraging cross-functional collaboration, and mentoring. Versatile in technology, proficient in switching in-between individual contributor and management roles, ensuring high-quality software solutions.",
+    profileContent: "Experienced Engineering Manager with 10+ years of hands-on experience in developing robust web applications and backend services, expertise in creating solutions and web development. Proven track record on building strong teams that demonstrates strong leadership, delivering project milestones, and developing strategic roadmaps. Adept in fostering team growth, encouraging cross-functional collaboration, implementing agile methodologies, and mentoring.",
     jobs: [
         {
             position: "Engineering Manager",
@@ -29,10 +29,10 @@ const resumeContent = {
             location: "Remote",
             jobDuration: "May 2021 - Present (2.75 years)",
             hightlights: [
-                "Led the identity team, migrating 4.5 million user accounts to a modern authentication system with zero downtime.",
-                "Spearheaded the development of an authorization system enhancing resource access auditing.",
-                "Managed a diverse team comprising seniors individual contributors and contractors, maintaining high productivity and engagement.",
-                "Instituted CI/CD practices, significantly reducing P1 incidents and improve system availability from 80.123% to 99.9984%."
+                "Led development on migrating 4.5 million user accounts to a modern authentication system with zero downtime",
+                "Managed three teams with 5 direct reports and 11 contractors across NA, LATAM, and EMEA.",
+                "Motivated range of mid to senior individual contributors to drive complex solutions that require coordination with multiple teams for Identity and Access Management (IAM) projects.",
+                "Instituted CI/CD best practices, static analysis tooling, visual regression, significantly reducing P1 incidents and improve system availability from 80.123% to 99.9984%."
             ]
         },
         {
@@ -42,8 +42,8 @@ const resumeContent = {
             jobDuration: "Nov 2018 - May 2021 (2.5 years)",
             hightlights: [
                 "Created the preview deploy system at the company, enabling designers and product to test new web functionality before merging to the main branch.",
-                "Directed and migrated invitae.com website from legacy django cms to contentful building a re - useable CMS UI library. Allowing marketing to deploy new pages on demand vs weekly / monthly releases.",
-                "Led the decentralization of the largest monolithic application into microservices, elevating system reliability, maintainability, and resilience on company re - orgs."
+                "Directed and migrated invitae.com website from legacy django cms to contentful building a re-useable CMS UI library. Allowing marketing to publish new pages on demand.",
+                "De-coupled a large monolithic application into micoservices/micro-frontends, improve overall system reliability, maintainability, and resilience to company re-orgs."
             ]
         },
         {
@@ -52,11 +52,10 @@ const resumeContent = {
             location: "New York, NY",
             jobDuration: "Oct 2017 - Oct 2018 (1 year)",
             hightlights: [
-                "Launched a high - impact broadway show lottery feature, boosting site traffic by 20 %.",
+                "Launched a high impact broadway show lottery feature, boosting site traffic by 20%.",
                 "Migrated the web application to typescript, enhacning code reliability and maintainability."
             ]
         },
-
         {
             position: "Senior Software Engineer",
             company: "Tigerspike",
@@ -67,9 +66,19 @@ const resumeContent = {
                 "Developed a geographically aware asset management website, supporting over 30 countries with optimal performance."
             ]
         },
+        {
+            position: "Software Engineer",
+            company: "Simbiotic",
+            location: "Perth, Western Australia",
+            jobDuration: "Jul 2011 - Jan 2014 (2.6 years)",
+            hightlights: [
+                "Developed an algorithm to generate time-base cycle forecasting to notify rail operation engineers what points in the workflow were affecting cycle times.",
+                "Created a visual map that identifies each locomotive's exact location in real-time"
+            ]
+        },
     ],
     education: {
-        degree: "Bachelor of Computer Science, Major in Software Engineering",
+        degree: "Bachelor of Computer Science",
         university: "Edith Cowan University",
         location: "Perth, WA, Australia",
         year: '2011',

@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
         fontFamily: "Roboto",
         fontSize: 10,
         fontWeight: 100,
-        paddingBottom: 3,
     },
     jobMentionDot: {
         fontSize: 10,

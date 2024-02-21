@@ -69,83 +69,14 @@ const styles = StyleSheet.create({
     fontWeight: 100,
     textAlign: 'justify'
   },
-  job: {
-
-  },
-  jobPosition: {
-    fontFamily: "Roboto",
+  bold: {
     fontSize: 10,
+    fontFamily: "Roboto",
     fontWeight: 'bold',
   },
-  jobSubHeading: {
-    fontSize: 10,
-    fontFamily: "Roboto",
-    fontWeight: 100,
-    marginTop: 2,
-    marginBottom: 2
-  },
-  jobDuration: {
-    fontSize: 9,
-    fontFamily: "Roboto",
-    fontWeight: 100,
-  },
-
-  jobCompany: {},
-  jobMentionsList: {
-    marginTop: 5,
-    marginBottom: 5,
-    flexDirection: "column",
-    width: 500
-  },
-  jobMentionItem: {
-    flexDirection: "row",
-    fontFamily: "Roboto",
-    fontSize: 10,
-    fontWeight: 100,
-    paddingBottom: 3,
-  },
-  jobMentionDot: {
-    fontSize: 10,
-    fontFamily: "Roboto",
-    fontWeight: 100,
-    marginHorizontal: 10,
-    textAlign: 'justify'
-  },
-  jobMentionText: {
-    fontSize: 10,
-    fontFamily: "Roboto",
-    fontWeight: 100,
-    textAlign: 'justify',
-    paddingBottom: 2,
-  },
-
-
   section: {
-    marginTop: 5,
-    marginBottom: 5
-  },
-
-  ul: {
-    marginLeft: 15,
-    flexDirection: "column",
-    width: 400
-  },
-  li: {
-    flexDirection: "row",
-  },
-  liDot: {
-    fontSize: 10,
-    fontFamily: "Roboto",
-    fontWeight: 100,
-    marginHorizontal: 2,
-    textAlign: 'justify'
-  },
-  liText: {
-    fontSize: 10,
-    fontFamily: "Roboto",
-    fontWeight: 100,
-    textAlign: 'justify',
-    paddingBottom: 2,
+    // marginTop: 5,
+    // marginBottom: 5
   },
 });
 
@@ -218,23 +149,10 @@ const Pdf = () => (
       <View style={styles.section}>
         <Text style={styles.sectionHeading}>Technical Skills</Text>
         <HorizontalLine />
-        <View style={styles.ul}>
-          <View style={styles.li}>
-            <Text style={styles.liText}>
-              Programming Languages: {resume.skillsAndInterest.programmingLanguages.join(", ")}
-            </Text>
-          </View>
-          <View style={styles.li}>
-            <Text style={styles.liText}>
-              Frameworks: {resume.skillsAndInterest.frameworks.join(", ")}
-            </Text>
-          </View>
-          <View style={styles.li}>
-            <Text style={styles.liText}>
-              Tools & Technologies: {resume.skillsAndInterest.toolsAndTechnologies.join(", ")}
-            </Text>
-          </View>
-        </View>
+        <Text style={styles.text}>
+          <Text style={styles.bold}>Programming Languages:</Text> {resume.skillsAndInterest.programmingLanguages.join(", ")} // <Text style={styles.bold}>Frameworks:</Text> {resume.skillsAndInterest.frameworks.join(", ")} // <Text style={styles.bold}>Tools & Technologies:</Text> {resume.skillsAndInterest.toolsAndTechnologies.join(", ")}
+        </Text>
+
       </View>
 
       <View style={styles.section} >
