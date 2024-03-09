@@ -1,27 +1,20 @@
 const individualContributor = {
-    jobTitle: 'Senior Software Engineer',
-    profileContent: "A seasoned Software Engineer with 15+ years in architecting, developing, and optimizing web applications and backend services. Offers a strong technical foundation combined with siginifiant leadership experience, managing teams and spearheading complex projects. Excels in technical problem solving, coding, and systrem design, with a keen interest in returning to a hands-on technical role to directly impact product development and innovation.",
+    jobTitle: 'Engineering Lead',
+    profileContent: "A seasoned Software Engineer with 10+ years of hands-on experience in developing robust web applications and backend services. Expert in creating complex solutions and adept in web development. Proven track record of building strong teams, demonstrating leadership, delivering project milestones, and developing strategic roadmaps. Proficient in fostering team growth, encouraging cross-functional collaboration, implementing agile methodologies, and mentoring.",
     jobs: [
-        {
-            position: "Engineering Manager / Senior Software Engineer",
-            company: "Invitae",
-            location: "Remote",
-            jobDuration: "May 2021 - Present (2.75 years)",
-            hightlights: [
-                "Led the identity team, migrating 4.5 million user accounts to Auth0 with zero downtime.",
-                "Led the development of an centralized AuthZ (Authorization) system enhancing resource sharing capabilities and auditing.",
-                "Managed a diverse team comprising from junior to principal individual contributors and contractors, maintaining high productivity and team collaboration.",
-                "Improved teams CI/CD best practices and overall system availability significantly"
-            ]
-        },
         {
             position: "Engineering Lead",
             company: "Invitae",
             location: "Remote",
-            jobDuration: "Nov 2018 - May 2021 (2.5 years)",
+            jobDuration: "Nov 2018 - Present",
             hightlights: [
-                "Developed a tool to assist teams with CI/CD pipelines in testing web features pre-merge, enabling stakeholders to evaluate new UI features. Adopted across the engineering org.",
-                "Migrated invitae.com website from legacy django cms to contentful building a re-useable CMS UI library. Allowing marketing to deploy new pages on demand vs weekly / monthly releases.",
+                "Led the identity team, migrating 4.5 million user accounts to Auth0 with zero downtime.",
+                "Led the development of an centralized AuthZ (Authorization) system enhancing resource sharing capabilities and auditing.",
+                "Managed a diverse team comprising from junior to principal individual contributors and contractors, maintaining high productivity and team collaboration.",
+                "Improved teams CI/CD best practices and overall system availability significantly",
+
+                "Developed a tool to assist teams with CI/CD pipelines in testing web features pre-merge, enabling stakeholders to evaluate new UI features. Adopted across the engineering organization.",
+                "Migrated invitae.com from a legacy Django CMS to Contentful, building a reusable CMS UI library. This allowed marketing to publish new pages on demand versus weekly/monthly releases",
                 "Led the decentralization of the largest monolithic application into microservices, elevating system reliability, maintainability, and resilience."
             ]
         },
@@ -29,7 +22,7 @@ const individualContributor = {
             position: "Senior Software Engineer",
             company: "TodayTix",
             location: "New York, NY",
-            jobDuration: "Oct 2017 - Oct 2018 (1 year)",
+            jobDuration: "Oct 2017 - Oct 2018",
             hightlights: [
                 "Launched a high impact broadway show lottery feature, boosting site traffic by 20%.",
                 "Migrated todaytix.com from javascript to typescript, enhancing code reliability and maintainability."
@@ -39,10 +32,20 @@ const individualContributor = {
             position: "Senior Software Engineer",
             company: "Tigerspike",
             location: "New York, NY",
-            jobDuration: "Feb 2014 - Oct 2017 (3.67 years)",
+            jobDuration: "Feb 2014 - Oct 2017",
             hightlights: [
-                "Redesigned a global intranet for a leading financial firm, integrating efficient search capabilities for user directory",
-                "Re-platformed asset management website, supporting over 7 different locales."
+                "Redesigned a global intranet for a leading financial firm, integrating efficient search capabilities for the user directory.",
+                "Re-platformed an asset management website, supporting over 7 different locales."
+            ]
+        },
+        {
+            position: "Software Engineer",
+            company: "Simbiotic",
+            location: "Perth, Western Australia",
+            jobDuration: "Jul 2011 - Jan 2014",
+            hightlights: [
+                "Developed an algorithm to generate time-based cycle forecasting to notify rail operation engineers of workflow points affecting cycle times.",
+                "Created a visual map that helped identify all locomotives' exact locations in real-time."
             ]
         },
     ],
