@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const resume = { ...resumeContent, ...individualContributor }
+const resume =  { ...resumeContent,...individualContributor } 
 
 const Pdf = () => (
   <Document

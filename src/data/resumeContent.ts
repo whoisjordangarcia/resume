@@ -3,7 +3,7 @@ const resumeContent = {
     jobTitle: 'Engineering Manager',
     location: "Miami, FL",
     email: "arickho@gmail.com",
-    mobile: '929-272-2291',
+    mobile: '+1 (929) 272 2291',
     contactList: [
         {
             href: "https://www.linkedin.com/in/arickhogarcia/",
@@ -27,7 +27,7 @@ const resumeContent = {
             position: "Engineering Manager",
             company: "Invitae",
             location: "Remote",
-            jobDuration: "May 2021 - Present (2.75 years)",
+            jobDuration: "May 2021 - Present",
             hightlights: [
                 "Led development on migrating 4.5 million user accounts to a modern authentication system with zero downtime",
                 "Led the development of an centralized AuthZ (Authorization) system enhancing resource sharing capabilities and auditing.",
@@ -40,7 +40,7 @@ const resumeContent = {
             position: "Enginering Lead",
             company: "Invitae",
             location: "Remote",
-            jobDuration: "Nov 2018 - May 2021 (2.5 years)",
+            jobDuration: "Nov 2018 - May 202",
             hightlights: [
                 "Created the preview deploy system at the company, enabling designers and product to test new web functionality before merging to the main branch.",
                 "Migrated invitae.com website from legacy django cms to contentful building a re-useable CMS UI library. Allowing marketing to deploy new pages on demand vs weekly / monthly releases.",
@@ -51,7 +51,7 @@ const resumeContent = {
             position: "Senior Software Engineer",
             company: "TodayTix",
             location: "New York, NY",
-            jobDuration: "Oct 2017 - Oct 2018 (1 year)",
+            jobDuration: "Oct 2017 - Oct 2018",
             hightlights: [
                 "Launched a high impact broadway show lottery feature, boosting site traffic by 20%.",
                 "Migrated todaytix.com from javascript to typescript, enhancing code reliability and maintainability."
@@ -61,7 +61,7 @@ const resumeContent = {
             position: "Senior Software Engineer",
             company: "Tigerspike",
             location: "New York, NY",
-            jobDuration: "Feb 2014 - Oct 2017 (3.67 years)",
+            jobDuration: "Feb 2014 - Oct 2017",
             hightlights: [
                 "Redesigned a global intranet for a leading financial firm, integrating efficient search capabilities for user directory",
                 "Re-platformed asset management website, supporting over 7 different locales."
@@ -71,7 +71,7 @@ const resumeContent = {
             position: "Software Engineer",
             company: "Simbiotic",
             location: "Perth, Western Australia",
-            jobDuration: "Jul 2011 - Jan 2014 (2.6 years)",
+            jobDuration: "Jul 2011 - Jan 2014",
             hightlights: [
                 "Developed an algorithm to generate time-base cycle forecasting to notify rail operation engineers what points in the workflow were affecting cycle times.",
                 "Created a visual map that identifies each locomotive's exact location in real-time"
@@ -86,9 +86,9 @@ const resumeContent = {
     },
     skillsAndInterest: {
         programmingLanguages: ["Typescript", "Python"],
-        frameworks: ["React", "Django", "NextJs", "NestJs"],
+        frameworks: ["React", "Django", "Next.js", "NestJS"],
         toolsAndTechnologies: ["Auth0", "Kubernetes", "Kafka", "Contentful", "NewRelic",
-            "Percy", "CI/CD", "Terraform", "Cloudfront", "Elasticsearch", "Redis"]
+            "Percy", "CI/CD", "Terraform", "Cloudfront", "Elasticsearch", "Redis", "Github Actions"]
     }
 }
 
