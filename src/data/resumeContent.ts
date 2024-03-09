@@ -44,7 +44,7 @@ const resumeContent = {
             hightlights: [
                 "Created the preview deploy system at the company, enabling designers and product to test new web functionality before merging to the main branch.",
                 "Migrated invitae.com website from legacy django cms to contentful building a re-useable CMS UI library. Allowing marketing to deploy new pages on demand vs weekly / monthly releases.",
-                "De-coupled a large monolithic application into micoservices/micro-frontends, improve verall system reliability, maintainability, and resilience to company re-orgs."
+                "De-coupled a large monolithic application into micoservices/micro-frontends, improve overall system reliability, maintainability, and resilience to company re-orgs."
             ]
         },
         {

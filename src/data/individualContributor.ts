@@ -12,11 +12,9 @@ const individualContributor = {
                 "Led the development of an centralized AuthZ (Authorization) system enhancing resource sharing capabilities and auditing.",
                 "Managed a diverse team comprising from junior to principal individual contributors and contractors, maintaining high productivity and team collaboration.",
                 "Improved teams CI/CD best practices and overall system availability significantly",
-
                 "Developed a tool to assist teams with CI/CD pipelines in testing web features pre-merge, enabling stakeholders to evaluate new UI features. Adopted across the engineering organization.",
                 "Migrated invitae.com from a legacy Django CMS to Contentful, building a reusable CMS UI library. This allowed marketing to publish new pages on demand versus weekly/monthly releases",
                 "Led the decentralization of the largest monolithic application into microservices, elevating system reliability, maintainability, and resilience."
-            ]
         },
         {
             position: "Senior Software Engineer",
