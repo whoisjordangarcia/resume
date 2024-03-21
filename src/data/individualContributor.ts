@@ -24,8 +24,8 @@ const individualContributor = {
       location: "New York, NY",
       jobDuration: "Oct 2017 - Oct 2018",
       hightlights: [
-        "Launched a high impact broadway show lottery feature, boosting site traffic by 20%.",
-        "Migrated todaytix.com from javascript to typescript, enhancing code reliability and maintainability.",
+      "Spearheaded the development and launch of a Broadway show lottery feature, resulting in a 20% increase in site traffic and significantly boosting user engagement.",
+      "Led the technical migration of todaytix.com from JavaScript to TypeScript, substantially enhancing code reliability, maintainability, and developer productivity."
       ],
     },
     {
@@ -34,8 +34,8 @@ const individualContributor = {
       location: "New York, NY",
       jobDuration: "Feb 2014 - Oct 2017",
       hightlights: [
-        "Redesigned a global intranet for a leading financial firm, integrating efficient search capabilities for the user directory.",
-        "Re-platformed an asset management website, supporting over 7 different locales.",
+        "Engineered a comprehensive redesign of a global intranet for a premier financial firm, incorporating advanced search capabilities and improving user directory access, thereby enhancing organizational efficiency.",
+        "Successfully re-platformed an asset management website to support multi-locale operations, enabling seamless content delivery and user experience across over 7 different regions."
       ],
     },
     {
@@ -44,8 +44,8 @@ const individualContributor = {
       location: "Perth, Western Australia",
       jobDuration: "Jul 2011 - Jan 2014",
       hightlights: [
-        "Developed an algorithm to generate time-based cycle forecasting to notify rail operation engineers of workflow points affecting cycle times.",
-        "Created a visual map that helped identify all locomotives' exact locations in real-time.",
+        "Innovated an algorithm for time-based cycle forecasting, empowering rail operation engineers with critical workflow insights to optimize cycle times and improve operational efficiency."
+        "Developed a real-time visual mapping tool to pinpoint locomotive locations, dramatically improving logistics management and operational response times."
       ],
     },
   ],
