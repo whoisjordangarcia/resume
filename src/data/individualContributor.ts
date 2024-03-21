@@ -25,8 +25,8 @@ const individualContributor = {
       jobDuration: "Oct 2017 - Oct 2018",
       hightlights: [
         "Launched a high impact broadway show lottery feature, boosting site traffic by 20%.",
-        "Migrated todaytix.com from javascript to typescript, enhancing code reliability and maintainability.",
-      ],
+        "Migrated todaytix.com from javascript to typescript, enhancing code reliability and maintainability."
+      ]
     },
     {
       position: "Senior Software Engineer",
