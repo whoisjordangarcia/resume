@@ -9,12 +9,12 @@ const individualContributor = {
       location: "Remote",
       jobDuration: "Nov 2018 - Present",
       hightlights: [
-        "Led the identity team in migrating 4.5 million user accounts to Auth0, achieving zero downtime and adapt modern authentication practices",
-        "Spearheaded the development of a centralized Authorization (AuthZ) system, significantly enhancing resource sharing capabilities and auditing efficiency.",
-        "6 direct reports, ranging from junior to principal individual contributors and contractors, fostering high productivity and collaboration.",
-        "Significantly improved engineering's CI/CD best practices and system availability, reducing deployment errors and downtime.",
-        "Developed a tool to streamline CI/CD pipelines for testing web features pre-merge, enabling stakeholders to evaluate new UI features more effectively. This tool was adopted across the engineering organization.",
-        "Successfully migrated invitae.com from a legacy Django CMS to Contentful, creating a reusable CMS UI library that empowered the marketing team to publish new pages on demand, thus streamlining the content update process.",
+
+        "Led the migration of 4.5M user accounts to Auth0, ensuring zero downtime and updated modern authentication methods.",
+        "Developed a centralized AuthZ system, significantly enhancing resource sharing and audit efficiency.",
+        "Managed 6 direct reports, fostering high productivity and cross-team collaboration.",
+        "Enhanced engineering's CI/CD practices and system availability, minimizing errors and downtime.",
+        "Led invitae.com's CMS migration to Contentful, introducing a CMS UI library for on-demand page publishing for the marketing team.",
         "Led the decentralization of a large monolithic application into microservices, significantly improving system reliability, maintainability, and resilience.",
       ],
     },
@@ -44,7 +44,7 @@ const individualContributor = {
       location: "Perth, Western Australia",
       jobDuration: "Jul 2011 - Jan 2014",
       hightlights: [
-        "Innovated an algorithm for time-based cycle forecasting, empowering rail operation engineers with critical workflow insights to optimize cycle times and improve operational efficiency."
+        "Innovated an algorithm for time-based cycle forecasting, empowering rail operation engineers with critical workflow insights to optimize cycle times and improve operational efficiency.",
         "Developed a real-time visual mapping tool to pinpoint locomotive locations, dramatically improving logistics management and operational response times."
       ],
     },
