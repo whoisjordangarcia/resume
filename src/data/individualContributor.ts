@@ -44,7 +44,7 @@ const individualContributor = {
       location: "Perth, Western Australia",
       jobDuration: "Jul 2011 - Jan 2014",
       hightlights: [
-        "Innovated an algorithm for time-based cycle forecasting, empowering rail operation engineers with critical workflow insights to optimize cycle times and improve operational efficiency."
+        "Innovated an algorithm for time-based cycle forecasting, empowering rail operation engineers with critical workflow insights to optimize cycle times and improve operational efficiency.",
         "Developed a real-time visual mapping tool to pinpoint locomotive locations, dramatically improving logistics management and operational response times."
       ],
     },
