@@ -1,12 +1,12 @@
 const resumeContent = {
   name: "Jordan Garcia",
   jobTitle: "Engineering Manager",
-  location: "Miami, FL",
+  location: "3131 NE 7th Ave #3502, Miami, FL 33137",
   email: "arickho@gmail.com",
   mobile: "+1 (929) 272 2291",
   contactList: [
     {
-      href: "https://www.linkedin.com/in/arickhogarcia/",
+      href: "https://www.linkedin.com/in/arickhogarcia",
       text: "linkedin.com/in/arickhogarcia",
       type: "Linkedin",
     },
@@ -30,8 +30,8 @@ const resumeContent = {
       location: "Remote",
       jobDuration: "May 2021 - Present",
       hightlights: [
-        "Led development on migrating 4.5 million user accounts to a modern authentication system with zero downtime",
-        "Led the development of an centralized AuthZ (Authorization) system enhancing resource sharing capabilities and auditing.",
+        "Team led the development on migrating 4.5 million user accounts to a modern authentication with SSO and MFA with zero downtime",
+        "Team led the development of an centralized AuthZ (Authorization) system enhancing resource sharing capabilities and auditing.",
         "Managed three teams with 5 direct reports and 11 contractors across NA, LATAM, and EMEA.",
         "Motivated range of mid to senior individual contributors to drive complex solutions that require coordination with multiple teams for Identity and Access Management (IAM) projects.",
         "Instituted CI/CD best practices, static analysis tooling, visual regression, observability significantly reducing P1 incidents and improve system availability.",
@@ -45,7 +45,7 @@ const resumeContent = {
       hightlights: [
         "Created the preview deploy system at the company, enabling designers and product to test new web functionality before merging to the main branch.",
         "Migrated invitae.com website from legacy django cms to contentful building a re-useable CMS UI library. Allowing marketing to deploy new pages on demand vs weekly / monthly releases.",
-        "De-coupled a large monolithic application into micoservices/micro-frontends, improve overall system reliability, maintainability, and resilience to company re-orgs.",
+        "De-coupled a large monolithic application into micoservices, reducing deployments from 2-3 weeks down to weekly releases and improved uptime for 98.9% to 99.99%",
       ],
     },
     {
@@ -84,26 +84,27 @@ const resumeContent = {
     university: "Edith Cowan University",
     location: "Perth, WA, Australia",
     year: "2011",
+    achievements: [
+      "Winner of 2013 APCO Australiasia Young Public Safety Innovation Award",
+      "Winner of 2012 National iAward",
+      "Finalist Nomination of 2012 APICTA Awards",
+      "Winner of 21st 2011-2012 WAiTTA Tertiary Student Award"
+    ]
   },
+  skills: ["Javascript", "Python", "C#", "React", "Django", "Next.js", "NestJS", "NodeJs", "ASP.NET", "HTML", "CSS", "Postgres", "Kubernetes", "Kafka", "New Relic", "Redis", "Docker", "Github Actions", "Elasticsearch", "Jenkins", "AWS (S3, Cloudfront, Cloudwatch, S3, SES, SNS, SQS, ECS, DynamoDb)", "Auth0", "Typescript"],
   skillsAndInterest: {
-    programmingLanguages: ["Javascript", "Typescript", "Python"],
-    frameworks: ["React", "Django", "Next.js", "NestJS"],
+    programmingLanguages: ["Javascript", "Typescript", "Python", "C#"],
+    frameworks: ["React", "Django", "Next.js", "NestJS", "NodeJs", "ASP.NET", "Elasticsearch, Redis"],
+    cloudServices: ["New Relic, Github Actions, AWS (S3, Cloudfront, Cloudwatch, S3, SES, SNS, SQS, ECS, DynamoDB), Auth0"],
     toolsAndTechnologies: [
+      "HTML5/CSS3",
       "Postgres",
-      "Cypress",
-      "Jest",
-      "Auth0",
+      "Cypress/Jest",
       "Kubernetes",
       "Kafka",
-      "Contentful",
-      "New Relic",
       "Terraform",
-      "Cloudfront",
-      "Elasticsearch",
       "Redis",
-      "Github Actions",
       "Docker",
-      "AWS",
     ],
   },
 };

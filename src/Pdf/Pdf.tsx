@@ -31,23 +31,18 @@ const styles = StyleSheet.create({
     paddingTop: 20
   },
   name: {
-    fontSize: 24,
+    fontSize: 20,
     fontFamily: "Roboto",
     fontWeight: "bold",
-    marginTop: 25
   },
   jobTitle: {
-    fontSize: 14,
+    fontSize: 12,
     fontFamily: "Roboto",
   },
   contactSection: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-  },
-  title: {
-    fontSize: 16,
-    fontFamily: "Roboto",
   },
   subtitle: {
     fontSize: 10,
@@ -58,16 +53,23 @@ const styles = StyleSheet.create({
     alignSelf: 'flex-end'
   },
   sectionHeading: {
-    fontSize: 14,
+    fontSize: 12,
     fontFamily: "Roboto",
-    marginBottom: 5,
-    marginTop: 5
+    marginBottom: 2,
+    marginTop: 2
   },
   text: {
     fontSize: 10,
     fontFamily: "Roboto",
     fontWeight: 100,
-    textAlign: 'justify'
+    textAlign: 'justify',
+  },
+  skillText: {
+    fontSize: 10,
+    fontFamily: "Roboto",
+    fontWeight: 100,
+    textAlign: 'justify',
+    marginBottom: 5
   },
   bold: {
     fontSize: 10,
@@ -75,12 +77,16 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   section: {
-    // marginTop: 5,
-    // marginBottom: 5
   },
+  contact: {
+    fontSize: 10,
+    fontFamily: 'Roboto',
+    fontWeight: 100,
+    marginBottom: 5
+  }
 });
 
-const resume =  { ...resumeContent,...individualContributor } 
+const resume = { ...resumeContent, ...individualContributor }
 
 const Pdf = () => (
   <Document
@@ -95,19 +101,7 @@ const Pdf = () => (
           <View>
             <Text style={styles.name}>{resume.name}</Text>
             <Text style={styles.jobTitle}>{resume.jobTitle}</Text>
-          </View>
-          <View>
-            <Text style={styles.subtitle}>
-              Location: {resume.location}
-            </Text>
-            <Text style={styles.subtitle}>
-              Email: <Link href={`mailto:${resume.email}`}>{resume.email}</Link>
-            </Text>
-            <Text style={styles.subtitle}>Phone: {resume.mobile}</Text>
-          </View>
-        </View>
-        <View style={styles.contactSection}>
-          <View>
+            <Text style={styles.contact}>{resume.location}, <Link href={`mailto:${resume.email}`}>{resume.email}</Link>, <Link href={`tel:${resume.mobile}`}>{resume.mobile}</Link></Text>
           </View>
           <View>
             {
@@ -120,16 +114,22 @@ const Pdf = () => (
             }
           </View>
         </View>
+        <View style={styles.contactSection}>
+          <View>
+          </View>
+          <View>
+          </View>
+        </View>
 
       </View>
 
-      <View style={styles.section}>
-        <Text style={styles.sectionHeading}>Profile</Text>
-        <HorizontalLine />
-        <Text style={styles.text}>
-          {resume.profileContent}
-        </Text>
-      </View>
+      {/* <View style={styles.section}> */}
+      {/*   <Text style={styles.sectionHeading}>Profile</Text> */}
+      {/*   <HorizontalLine /> */}
+      {/*   <Text style={styles.text}> */}
+      {/*     {resume.profileContent} */}
+      {/*   </Text> */}
+      {/* </View> */}
 
       <View style={styles.section}>
         <Text style={styles.sectionHeading}>Professional Experience</Text>
@@ -138,23 +138,18 @@ const Pdf = () => (
           resume.jobs.map((job) => {
             return (
               <Job
-                position={job.position}
                 company={job.company}
-                location={job.location}
-                jobDuration={job.jobDuration}
-                highlights={job.hightlights}
+                positions={job.positions as any}
               />)
           })
         }
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionHeading}>Technical Skills</Text>
+        <Text style={styles.sectionHeading}>Skills</Text>
         <HorizontalLine />
-        <Text style={styles.text}>
-          <Text style={styles.bold}>Programming Languages:</Text> {resume.skillsAndInterest.programmingLanguages.join(", ")} // <Text style={styles.bold}>Frameworks:</Text> {resume.skillsAndInterest.frameworks.join(", ")} // <Text style={styles.bold}>Tools & Technologies:</Text> {resume.skillsAndInterest.toolsAndTechnologies.join(", ")}
-        </Text>
-
+        <Text style={styles.skillText}>
+          {resume.skills.join(", ")}</Text>
       </View>
 
       <View style={styles.section} >
@@ -163,6 +158,9 @@ const Pdf = () => (
         <Text style={styles.text}>{resume.education.degree}</Text>
         <Text style={styles.text}>
           {resume.education.university}, {resume.education.location} - {resume.education.year}
+        </Text>
+        <Text style={styles.text}>
+          Achievements: {resume.education.achievements.join(", ")}
         </Text>
       </View >
     </Page >

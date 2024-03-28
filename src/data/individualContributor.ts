@@ -1,52 +1,90 @@
 const individualContributor = {
-  jobTitle: "Senior Software Engineer / Lead",
+  jobTitle: "Lead Software Engineer",
   profileContent:
-    "A seasoned Software Engineer with 10+ years of hands-on experience in developing robust web applications and backend services. Expert in creating complex solutions and adept in web development. Proven track record of building strong teams, demonstrating leadership, delivering project milestones, and developing strategic roadmaps. Proficient in fostering team growth, encouraging cross-functional collaboration, implementing agile methodologies, and mentoring.",
+    "A seasoned Software Engineer with 10+ years of hands-on experience in developing robust web applications and backend services. Proven track record on delivering high impact initiatives, breaking down complex solutions, and developing strategic roadmaps. Proficient in fostering team growth, encouraging cross-functional collaboration, implementing agile methodologies, and mentoring.",
   jobs: [
     {
-      position: "Senior Software Engineer / Lead",
-      company: "Invitae",
-      location: "Remote",
-      jobDuration: "Nov 2018 - Present",
-      hightlights: [
+      company: "Invitae Corp.",
+      positions: [
+        {
+          title: "Lead Software Engineer",
+          jobDuration: "Sep 2022 - Present",
+          location: "Remote, FL",
+          highlights: [
+            "Let the team in developing single-sign on and multifactor authentication and migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving security and enabling B2B customers in enabling SSO.",
+            "Developed a centralized authorization (AuthZ) system, this unlocking the ability for teams to utilize Atribute Based Access Control (ABAC)/Role Based Access Control (RBAC) authorization, increasing security to multiple micro-services.",
+          ]
+        },
+        {
+          title: "Engineering Manager",
+          jobDuration: "May 2021 - Sep 2022",
+          location: "Remote, FL",
+          highlights: [
+            "Managed team of 11 direct reports,  customer experiences for both patients and physicians portals, fostering high productivity and cross-team collaboration.",
+            "Collaborated with product and lead the team on changing ordering workflow to insurance re-imbursements rejections and being able to successfully collect $5m+ per quarter.",
+          ]
+        },
+        {
+          title: "Senior Software Engineer",
+          jobDuration: "Nov 2018 - May 2021",
+          location: "New York, NY",
+          highlights: [
+            "Build a service that generated genetic reports for 4M+ patients, creating a comprehensive testing suite, with 98.6% test coverage, including visual snapshot testing",
+            "De-coupled a large monolithic application into micoservices, reducing deployments from 2-3 weeks down to weekly releases, and fixing overprovisioned resources saving 25k per month",
+          ]
+        }
+      ],
 
-        "Led the migration of 4.5M user accounts to Auth0, ensuring zero downtime and updated modern authentication methods.",
-        "Developed a centralized AuthZ system, significantly enhancing resource sharing and audit efficiency.",
-        "Managed 6 direct reports, fostering high productivity and cross-team collaboration.",
-        "Enhanced engineering's CI/CD practices and system availability, minimizing errors and downtime.",
-        "Led invitae.com's CMS migration to Contentful, introducing a CMS UI library for on-demand page publishing for the marketing team.",
-        "Led the decentralization of a large monolithic application into microservices, significantly improving system reliability, maintainability, and resilience.",
-      ],
     },
     {
-      position: "Senior Software Engineer",
-      company: "TodayTix",
-      location: "New York, NY",
-      jobDuration: "Oct 2017 - Oct 2018",
-      hightlights: [
-      "Spearheaded the development and launch of a Broadway show lottery feature, resulting in a 20% increase in site traffic and significantly boosting user engagement.",
-      "Led the technical migration of todaytix.com from JavaScript to TypeScript, substantially enhancing code reliability, maintainability, and developer productivity."
-      ],
+      company: "Todaytix",
+      positions: [
+        {
+          title: "Senior Software Engineer",
+          jobDuration: "Oct 2017 - Oct 2018",
+          location: "New York, NY",
+          highlights: [
+            "Developed feature for web experience that allows users to pick their own seats when buying a broadway show, this resulted in increasing web revenue by 30% each quarter.",
+            "Led the technical migration web experience from JavaScript to TypeScript within 2 months, substantially reducing the amount of production issues, and improving developer experience by spotting out common bugs during static analysis tooling"
+          ]
+        }
+      ]
     },
     {
-      position: "Senior Software Engineer",
       company: "Tigerspike",
-      location: "New York, NY",
-      jobDuration: "Feb 2014 - Oct 2017",
-      hightlights: [
-        "Engineered a comprehensive redesign of a global intranet for a premier financial firm, incorporating advanced search capabilities and improving user directory access, thereby enhancing organizational efficiency.",
-        "Successfully re-platformed an asset management website to support multi-locale operations, enabling seamless content delivery and user experience across over 7 different regions."
+      positions: [
+        {
+          title: "Senior Software Engineer",
+          jobDuration: "Jul 2016 - Oct 2017",
+          location: "New York, NY",
+          highlights: [
+            "Replatformed global intranet using Sharepoint 2016, improving user engagement. Used JMeter to load test and iterate and optimize on the infrastructure topology to support 5k concurrent users.",
+            "Led and re-platformed website to support multi-languages and across 7 different regions, utilizing Tridion as the headless CMS, ASP.NET C# on the backend, Angular on the frontend, Solr for full-site search.",
+          ],
+        },
+        {
+          title: "Software Engineer",
+          jobDuration: "Feb 2014 - Jul 2016",
+          location: "Sydney, Australia",
+          highlights: [
+            "Developed backend service in ASP.NET that validated IVF ",
+            "Developed points of interest map system that interacted on ipads to maintain and manage across multiple westfield shopping centers."]
+        }
       ],
     },
     {
-      position: "Software Engineer",
       company: "Simbiotic",
-      location: "Perth, Western Australia",
-      jobDuration: "Jul 2011 - Jan 2014",
-      hightlights: [
-        "Innovated an algorithm for time-based cycle forecasting, empowering rail operation engineers with critical workflow insights to optimize cycle times and improve operational efficiency.",
-        "Developed a real-time visual mapping tool to pinpoint locomotive locations, dramatically improving logistics management and operational response times."
-      ],
+      positions: [
+        {
+          title: "Software Engineer",
+          jobDuration: "Jul 2011 - Jan 2014",
+          location: "Perth, Western Australia",
+          highlights: [
+            "Created algorithm on time-based cycle forecasting that empowers rail operation engineers to improve overall efficiency and client saving $1m+ a month",
+            "Developed interactive UI on two 120inch touchscreen's that tracked all locomotives within the mining site, improving logistics managment and operation response times.",
+          ],
+        }
+      ]
     },
   ],
 };
