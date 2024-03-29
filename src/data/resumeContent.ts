@@ -1,7 +1,7 @@
 const resumeContent = {
   name: "Jordan Garcia",
   jobTitle: "Engineering Manager",
-  location: "3131 NE 7th Ave #3502, Miami, FL 33137",
+  location: "3131 NE 7th Ave, Miami, FL 33137",
   email: "arickho@gmail.com",
   mobile: "+1 (929) 272 2291",
   contactList: [
@@ -56,6 +56,7 @@ const resumeContent = {
       hightlights: [
         "Launched a high impact broadway show lottery feature, boosting site traffic by 20%.",
         "Migrated todaytix.com from javascript to typescript, enhancing code reliability and maintainability.",
+        "Recognized with MVP Award 2017"
       ],
     },
     {

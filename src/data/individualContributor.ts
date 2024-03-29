@@ -11,8 +11,8 @@ const individualContributor = {
           jobDuration: "Sep 2022 - Present",
           location: "Remote, FL",
           highlights: [
-            "Let the team in developing single-sign on and multifactor authentication and migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving security and enabling B2B customers in enabling SSO.",
-            "Developed a centralized authorization (AuthZ) system, this unlocking the ability for teams to utilize Atribute Based Access Control (ABAC)/Role Based Access Control (RBAC) authorization, increasing security to multiple micro-services.",
+            "Led the team on integrating single-sign on and multifactor authentication, migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving overall security and faster onboarding process with large health systems.",
+            "Developed a centralized authorization (AuthZ) system, unlocking the ability for teams to utilize Atribute Based Access Control (ABAC)/Role Based Access Control (RBAC) authorization, increasing security to multiple micro-services.",
           ]
         },
         {
@@ -20,7 +20,8 @@ const individualContributor = {
           jobDuration: "May 2021 - Sep 2022",
           location: "Remote, FL",
           highlights: [
-            "Managed team of 11 direct reports,  customer experiences for both patients and physicians portals, fostering high productivity and cross-team collaboration.",
+            "Managed team of 11 direct reports, customer experiences for both patients and physicians portals, fostering high productivity and cross-team collaboration.",
+            "Worked closely with Product on driving the teams strategic roadmap, helping to lead the team in exceeding goals and working towards the companies north-star.",
             "Collaborated with product and lead the team on changing ordering workflow to insurance re-imbursements rejections and being able to successfully collect $5m+ per quarter.",
           ]
         },
@@ -45,7 +46,8 @@ const individualContributor = {
           location: "New York, NY",
           highlights: [
             "Developed feature for web experience that allows users to pick their own seats when buying a broadway show, this resulted in increasing web revenue by 30% each quarter.",
-            "Led the technical migration web experience from JavaScript to TypeScript within 2 months, substantially reducing the amount of production issues, and improving developer experience by spotting out common bugs during static analysis tooling"
+            "Led the technical migration web experience from JavaScript to TypeScript within 2 months, substantially reducing the amount of production issues, and improving developer experience by spotting out common bugs during static analysis tooling",
+            "Recognized with MVP Award 2017"
           ]
         }
       ]
@@ -67,8 +69,8 @@ const individualContributor = {
           jobDuration: "Feb 2014 - Jul 2016",
           location: "Sydney, Australia",
           highlights: [
-            "Developed backend service in ASP.NET that validated IVF ",
-            "Developed points of interest map system that interacted on ipads to maintain and manage across multiple westfield shopping centers."]
+            "Collaborated closely with the innovation team at a large bank to enhance the user experience for international money transfers, the first for the company.",
+            "Developed wayfinding kiosk admin application that helped staff to manage directory of each westfield shopping center in australia."]
         }
       ],
     },
@@ -80,8 +82,9 @@ const individualContributor = {
           jobDuration: "Jul 2011 - Jan 2014",
           location: "Perth, Western Australia",
           highlights: [
-            "Created algorithm on time-based cycle forecasting that empowers rail operation engineers to improve overall efficiency and client saving $1m+ a month",
-            "Developed interactive UI on two 120inch touchscreen's that tracked all locomotives within the mining site, improving logistics managment and operation response times.",
+            "Created algorithm in C# on time-based cycle forecasting that empowers rail operation engineers to improve overall efficiency and client saving $1m+ a month",
+            "Full-stack developed an desktop application, deployed onto multiple touchscreen devices that tracked all locomotives within the mining site, improving logistics managment and operation response times.",
+
           ],
         }
       ]
