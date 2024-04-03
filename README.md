@@ -9,12 +9,13 @@ I developed this template to streamline managing my resume, eliminating the need
 ## Prerequisites
 
 - Download bun `curl -fsSL https://bun.sh/install | bash`
+- Download Postgresql
 
 ## Quickstart
 
-1. `nvm use`
-2. `npm install`
-3. `npm run start`
+1. `bun install`
+2. `bun dev`
+3. Navigate to `localhost:3000`
 
 ## Preview / Download
 
