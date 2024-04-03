@@ -30,6 +30,16 @@ export default async function Home() {
               See individual contributor variant
             </div>
           </Link>
+          <Link
+            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 hover:bg-white/20"
+            href="/builder"
+          >
+            <h3 className="text-2xl font-bold">Build Resume →</h3>
+            <div className="text-lg">
+              Interactibe resume builder
+            </div>
+          </Link>
+ 
         </div>
         <div className="flex flex-col items-center gap-2">
           <p className="text-2xl text-white">
