@@ -25,4 +25,4 @@ const HorizontalLine: React.FunctionComponent = () => (
   </Svg>
 );
 
-export default HorizontalLine;
+export default HorizontalLine

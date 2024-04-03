@@ -9,6 +9,7 @@ I developed this template to streamline managing my resume, eliminating the need
 ## Prerequisites
 
 - Download bun `curl -fsSL https://bun.sh/install | bash`
+
 ## Quickstart
 
 1. `nvm use`

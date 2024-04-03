@@ -92,4 +92,4 @@ const individualContributor = {
   ],
 };
 
-export { individualContributor };
+export {individualContributor}

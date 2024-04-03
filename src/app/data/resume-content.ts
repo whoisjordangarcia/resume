@@ -26,6 +26,7 @@ const resumeContent = {
   jobs: [
     {
       position: "Engineering Manager",
+      positions:[],
       company: "Invitae",
       location: "Remote",
       jobDuration: "May 2021 - Present",
@@ -39,6 +40,7 @@ const resumeContent = {
     },
     {
       position: "Enginering Lead",
+      positions:[],
       company: "Invitae",
       location: "Remote",
       jobDuration: "Nov 2018 - May 2021",
@@ -50,6 +52,7 @@ const resumeContent = {
     },
     {
       position: "Senior Software Engineer",
+      positions:[],
       company: "TodayTix",
       location: "New York, NY",
       jobDuration: "Oct 2017 - Oct 2018",
@@ -61,6 +64,7 @@ const resumeContent = {
     },
     {
       position: "Senior Software Engineer",
+      positions:[],
       company: "Tigerspike",
       location: "New York, NY",
       jobDuration: "Feb 2014 - Oct 2017",
@@ -71,6 +75,7 @@ const resumeContent = {
     },
     {
       position: "Software Engineer",
+      positions:[],
       company: "Simbiotic",
       location: "Perth, Western Australia",
       jobDuration: "Jul 2011 - Jan 2014",

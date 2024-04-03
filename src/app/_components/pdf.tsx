@@ -8,12 +8,12 @@ import {
   StyleSheet,
   View,
 } from "@react-pdf/renderer";
-import Job from "../components/Job/Job";
+import Job from "./job";
 
-import { resumeContent } from "../data/resumeContent"
-import { individualContributor } from "../data/individualContributor"
+import { resumeContent } from "~/app/data/resume-content"
+import { individualContributor } from "~/app/data/individual-contributor"
 
-import HorizontalLine from "../components/HorizontalLine/HorizontalLine";
+import HorizontalLine from "./horizontal-line"
 
 Font.register({
   family: "Roboto",
@@ -86,10 +86,17 @@ const styles = StyleSheet.create({
   }
 });
 
-const resume = { ...resumeContent, ...individualContributor }
+interface IProps {
+ variant:string
+}
 
-const Pdf = () => (
-  <Document
+const Pdf = ({variant}: IProps) => {
+ let resume = resumeContent 
+ 
+  if(variant === "individual-contributor") {
+   resume = {...resume,...individualContributor}
+  }
+  return ( <Document
     title={`${resume.name}'s Resume`}
     author={resume.name}
     subject="Resume"
@@ -164,7 +171,8 @@ const Pdf = () => (
         </Text>
       </View >
     </Page >
-  </Document >
-);
+  </Document >) 
+};
 
-export default Pdf;
+export default Pdf
+
