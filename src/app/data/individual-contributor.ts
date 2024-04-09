@@ -31,7 +31,7 @@ const individualContributor = {
           location: "New York, NY",
           highlights: [
             "Build a service that generated genetic reports for 4M+ patients, creating a comprehensive testing suite, with 98.6% test coverage, including visual snapshot testing.",
-            "De-coupled a large monolithic application into micoservices, reducing deployments from 2-3 weeks down to weekly releases, and fixing overprovisioned resources saving $25k per month",
+            "De-coupled a large monolithic application into micoservices, reducing deployments from 2-3 weeks down to weekly daily releases, and fixing overprovisioned resources saving $25k per month",
           ]
         }
       ],
