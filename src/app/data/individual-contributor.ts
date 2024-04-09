@@ -11,8 +11,8 @@ const individualContributor = {
           jobDuration: "Sep 2022 - Present",
           location: "Remote, FL",
           highlights: [
-            "Led the team on integrating single-sign on and multifactor authentication, migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving overall security and faster onboarding process with large health systems.",
-            "Developed a centralized authorization (AuthZ) system, unlocking the ability for teams to utilize Atribute Based Access Control (ABAC)/Role Based Access Control (RBAC) authorization, increasing security to multiple micro-services.",
+            "Led the team on integrating single-sign on and multifactor authentication, migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving overall security and faster onboarding process with large healthcare systems.",
+            "Developed a centralized authorization (AuthZ) system, unlocking the ability for teams to utilize Atribute Based Access Control (ABAC)/Role Based Access Control (RBAC) authorization, allowing teams to ship features out faster with secured resources.",
           ]
         },
         {
@@ -22,7 +22,7 @@ const individualContributor = {
           highlights: [
             "Managed team of 11 direct reports, customer experiences for both patients and physicians portals, fostering high productivity and cross-team collaboration.",
             "Worked closely with Product on driving the teams strategic roadmap, helping to lead the team in exceeding goals and working towards the companies north-star.",
-            "Collaborated with product and lead the team on changing ordering workflow to insurance re-imbursements rejections and being able to successfully collect $5m+ per quarter.",
+            "Collaborated with product and lead the team on changing ordering workflow to insurance re-imbursements rejections and being able to successfully collect $5M+ per quarter.",
           ]
         },
         {
@@ -30,8 +30,8 @@ const individualContributor = {
           jobDuration: "Nov 2018 - May 2021",
           location: "New York, NY",
           highlights: [
-            "Build a service that generated genetic reports for 4M+ patients, creating a comprehensive testing suite, with 98.6% test coverage, including visual snapshot testing",
-            "De-coupled a large monolithic application into micoservices, reducing deployments from 2-3 weeks down to weekly releases, and fixing overprovisioned resources saving 25k per month",
+            "Build a service that generated genetic reports for 4M+ patients, creating a comprehensive testing suite, with 98.6% test coverage, including visual snapshot testing.",
+            "De-coupled a large monolithic application into micoservices, reducing deployments from 2-3 weeks down to weekly releases, and fixing overprovisioned resources saving $25k per month",
           ]
         }
       ],
@@ -47,7 +47,6 @@ const individualContributor = {
           highlights: [
             "Developed feature for web experience that allows users to pick their own seats when buying a broadway show, this resulted in increasing web revenue by 30% each quarter.",
             "Led the technical migration web experience from JavaScript to TypeScript within 2 months, substantially reducing the amount of production issues, and improving developer experience by spotting out common bugs during static analysis tooling",
-            "Recognized with MVP Award 2017"
           ]
         }
       ]
@@ -62,6 +61,7 @@ const individualContributor = {
           highlights: [
             "Replatformed global intranet using Sharepoint 2016, improving user engagement. Used JMeter to load test and iterate and optimize on the infrastructure topology to support 5k concurrent users.",
             "Led and re-platformed website to support multi-languages and across 7 different regions, utilizing Tridion as the headless CMS, ASP.NET C# on the backend, Angular on the frontend, Solr for full-site search.",
+            "Recognized with MVP Award 2017 for successfully deliverying multiple projects."
           ],
         },
         {
@@ -84,7 +84,6 @@ const individualContributor = {
           highlights: [
             "Created algorithm in C# on time-based cycle forecasting that empowers rail operation engineers to improve overall efficiency and client saving $1m+ a month",
             "Full-stack developed an desktop application, deployed onto multiple touchscreen devices that tracked all locomotives within the mining site, improving logistics managment and operation response times.",
-
           ],
         }
       ]
@@ -92,4 +91,4 @@ const individualContributor = {
   ],
 };
 
-export {individualContributor}
+export { individualContributor }
