@@ -9,8 +9,8 @@ const styles = StyleSheet.create({
     marginTop: 2,
     marginBottom: 2,
   },
-  jobSubHeading: {
-    fontSize: 9,
+  jobCompanyAndLocation: {
+    fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
   },
@@ -18,6 +18,7 @@ const styles = StyleSheet.create({
     fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
+    alignSelf: "center",
   },
   jobMentionsList: {
     marginTop: 5,
@@ -45,6 +46,11 @@ const styles = StyleSheet.create({
     textAlign: "justify",
     paddingBottom: 2,
   },
+  jobHeading: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
 });
 
 interface IPosition {
@@ -61,12 +67,14 @@ interface IProps {
 
 const Job: React.FunctionComponent<IProps> = (props) => (
   <View>
-    <Text style={styles.jobSubHeading}>{props.company}</Text>
     {props.positions.map((position) => (
       <>
-        <Text style={styles.jobPosition}>{position.title}</Text>
-        <Text style={styles.jobDuration}>
-          {position.location} - {position.jobDuration}
+        <View style={styles.jobHeading}>
+          <Text style={styles.jobPosition}>{position.title}</Text>
+          <Text style={styles.jobDuration}>{position.jobDuration}</Text>
+        </View>
+        <Text style={styles.jobCompanyAndLocation}>
+          {props.company} - {position.location}
         </Text>
         <View style={styles.jobMentionsList}>
           {position.highlights?.map((highlight) => (
