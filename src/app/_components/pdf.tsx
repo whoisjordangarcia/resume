@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   subtitle: {
-    fontSize: 10,
+    fontSize: 8,
     textAlign: "right",
     paddingBottom: 2,
     fontFamily: "Roboto",
@@ -59,13 +59,13 @@ const styles = StyleSheet.create({
     marginTop: 2,
   },
   text: {
-    fontSize: 10,
+    fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
     textAlign: "justify",
   },
   skillText: {
-    fontSize: 10,
+    fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
     textAlign: "justify",
@@ -78,11 +78,14 @@ const styles = StyleSheet.create({
   },
   section: {},
   contact: {
-    fontSize: 10,
+    fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
     marginBottom: 5,
   },
+  linkSection: {
+    paddingTop: 25
+  }
 });
 
 interface IProps {
@@ -114,7 +117,7 @@ const Pdf = ({ variant }: IProps) => {
                 <Link href={`tel:${resume.mobile}`}>{resume.mobile}</Link>
               </Text>
             </View>
-            <View>
+            <View style={styles.linkSection}>
               {resume.contactList.map((contact) => {
                 return (
                   <Text key={contact.text} style={styles.subtitle}>

@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   jobSubHeading: {
-    fontSize: 10,
+    fontSize: 9,
     fontFamily: "Roboto",
     fontWeight: 100,
   },
@@ -28,18 +28,18 @@ const styles = StyleSheet.create({
   jobMentionItem: {
     flexDirection: "row",
     fontFamily: "Roboto",
-    fontSize: 10,
+    fontSize: 8,
     fontWeight: 100,
   },
   jobMentionDot: {
-    fontSize: 10,
+    fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
-    marginHorizontal: 10,
+    marginHorizontal: 8,
     textAlign: "justify",
   },
   jobMentionText: {
-    fontSize: 10,
+    fontSize: 8,
     fontFamily: "Roboto",
     fontWeight: 100,
     textAlign: "justify",

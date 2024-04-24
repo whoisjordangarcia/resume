@@ -19,7 +19,7 @@ const HorizontalLine: React.FunctionComponent = () => (
       y1="0"
       x2="530"
       y2="0"
-      strokeWidth={1}
+      strokeWidth={.5}
       stroke="rgb(0,0,0)"
     />
   </Svg>

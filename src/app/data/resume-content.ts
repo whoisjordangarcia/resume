@@ -26,7 +26,7 @@ const resumeContent = {
   jobs: [
     {
       position: "Engineering Manager",
-      positions:[],
+      positions: [],
       company: "Invitae",
       location: "Remote",
       jobDuration: "May 2021 - Present",
@@ -40,7 +40,7 @@ const resumeContent = {
     },
     {
       position: "Enginering Lead",
-      positions:[],
+      positions: [],
       company: "Invitae",
       location: "Remote",
       jobDuration: "Nov 2018 - May 2021",
@@ -52,7 +52,7 @@ const resumeContent = {
     },
     {
       position: "Senior Software Engineer",
-      positions:[],
+      positions: [],
       company: "TodayTix",
       location: "New York, NY",
       jobDuration: "Oct 2017 - Oct 2018",
@@ -64,7 +64,7 @@ const resumeContent = {
     },
     {
       position: "Senior Software Engineer",
-      positions:[],
+      positions: [],
       company: "Tigerspike",
       location: "New York, NY",
       jobDuration: "Feb 2014 - Oct 2017",
@@ -75,7 +75,7 @@ const resumeContent = {
     },
     {
       position: "Software Engineer",
-      positions:[],
+      positions: [],
       company: "Simbiotic",
       location: "Perth, Western Australia",
       jobDuration: "Jul 2011 - Jan 2014",
@@ -97,7 +97,7 @@ const resumeContent = {
       "Winner of 21st 2011-2012 WAiTTA Tertiary Student Award"
     ]
   },
-  skills: ["Javascript", "Python", "C#", "React", "Django", "Next.js", "NestJS", "NodeJs", "ASP.NET", "HTML", "CSS", "Postgres", "Kubernetes", "Kafka", "New Relic", "Redis", "Docker", "Github Actions", "Elasticsearch", "Jenkins", "AWS (S3, Cloudfront, Cloudwatch, S3, SES, SNS, SQS, ECS, DynamoDb)", "Auth0", "Typescript"],
+  skills: ["Javascript", "Python", "C#", "React", "Django", "Next.js", "NestJS", "NodeJs", "ASP.NET", "HTML", "CSS", "Postgres", "Kubernetes", "Kafka", "New Relic", "Redis", "Docker", "Github Actions", "Elasticsearch", "Jenkins", "AWS", "Auth0", "Typescript"],
   skillsAndInterest: {
     programmingLanguages: ["Javascript", "Typescript", "Python", "C#"],
     frameworks: ["React", "Django", "Next.js", "NestJS", "NodeJs", "ASP.NET", "Elasticsearch, Redis"],
