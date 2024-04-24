@@ -11,7 +11,7 @@ const individualContributor = {
           jobDuration: "September 2022 - Present",
           location: "Remote, FL",
           highlights: [
-            "Led the team on integrating single-sign on and multifactor authentication, migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving overall security and faster onboarding process with large healthcare systems.",
+            "Led the team on integrating single-sign on and multi-factor authentication, migrating 4.5m+ user accounts to modern authentication (AuthN) with zero downtime, improving overall security and faster onboarding process with large healthcare systems.",
             "Established a centralized authorization (AuthZ) system, unlocking the ability for teams to utilize Atribute Based Access Control (ABAC)/Role Based Access Control (RBAC) authorization, allowing teams to ship features out faster with secured resources.",
           ],
         },
@@ -31,7 +31,7 @@ const individualContributor = {
           location: "New York, NY",
           highlights: [
             "Built a service that generated genetic reports for 4M+ patients, creating a comprehensive testing suite, with 98.6% test coverage, including visual snapshot testing.",
-            "Decoupled a large monolithic application into microservices, reducing deployments from 2-3 weeks down to weekly daily releases, and fixing overprovisioned resources saving $25k per month.",
+            "Decoupled a large monolithic application into microservices, reducing deployments from 2-3 weeks down to weekly daily releases, and fixing over-provisioned resources saving $25k per month.",
           ],
         },
       ],
@@ -44,7 +44,7 @@ const individualContributor = {
           jobDuration: "October 2017 - October 2018",
           location: "New York, NY",
           highlights: [
-            "Produced web experience that allows users to choose own seats when purchasing a broadway show, this resulted in increasing web revenue by 30% each quarter.",
+            "Produced web experience that allows users to choose own seats when purchasing a Broadway show, this resulted in increasing web revenue by 30% each quarter.",
             "Led the technical migration web experience from JavaScript to TypeScript within 2 months, reducing the amount of production issues, and improving developer experience by spotting out common bugs during static analysis tooling.",
           ],
         },
@@ -69,7 +69,7 @@ const individualContributor = {
           location: "Sydney, Australia",
           highlights: [
             "Collaborated closely with the innovation team at a large bank to enhance the user experience for international money transfers, the first for the company.",
-            "Created a wayfinding kiosk admin application that helped staff to manage directory of each westfield shopping center in australia.",
+            "Created a wayfinding kiosk admin application that helped staff to manage directory of each Westfield shopping center in Australia.",
           ],
         },
       ],
@@ -83,7 +83,7 @@ const individualContributor = {
           location: "Perth, Western Australia",
           highlights: [
             "Created algorithm in C# on time-based cycle forecasting that empowers rail operation engineers to improve overall efficiency and client saving $1m+ a month.",
-            "Full-stack developed an desktop application, deployed onto touchscreen devices that tracked all locomotives within the mining site, improving logistics management and operation response times.",
+            "Developed and deployed a cutting-edge desktop application onto touchscreen devices to track and manage all locomotives in a mining site, resulting in a 45% decrease in operation response times.",
           ],
         },
       ],

@@ -89,7 +89,7 @@ const resumeContent = {
     degree: "Bachelor of Computer Science",
     university: "Edith Cowan University",
     location: "Perth, WA, Australia",
-    year: "2009 - 2011",
+    year: "January 2009 - December 2011",
     achievements: [
       "Winner of APCO Australiasia Young Public Safety Innovation Award",
       "Winner of National iAward",
