@@ -60,7 +60,7 @@ const individualContributor = {
           highlights: [
             "Replatformed global intranet using Microsoft Sharepoint 2016, improving user engagement. Used JMeter to load test and iterate and optimize on the infrastructure topology to support 5k concurrent users.",
             "Led and re-platformed website to support multi-languages and across 7 different regions, utilizing Tridion as the headless CMS, ASP.NET C# on the backend, Angular on the frontend, Solr for full-site search.",
-            "Recognized with MVP Award 2017 for delivering high impact projects.",
+            "Championed cross-functional initiative that streamlined processes, reducing project delivery time by 20% and enhancing team productivity, resulting in a 10% increase in overall project completion rate.",
           ],
         },
         {
@@ -69,7 +69,7 @@ const individualContributor = {
           location: "Sydney, Australia",
           highlights: [
             "Collaborated closely with the innovation team at a large bank to enhance the user experience for international money transfers, the first for the company.",
-            "Created a wayfinding kiosk admin application that helped staff to manage directory of each Westfield shopping center in Australia.",
+            "Crafted a bespoke wayfinding kiosk admin tool for efficient directory management at Westfield shopping centers; improved staff workflow by 35% and enhanced overall visitor experience with accurate and up-to-date information.",
           ],
         },
       ],
